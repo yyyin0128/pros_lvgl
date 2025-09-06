@@ -20,7 +20,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen5",
+                    "strval": "P1HomeLb",
                     "InheritedType": 10
                   },
                   {
@@ -186,7 +186,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button14",
+                "strval": "P1HomeBtn",
                 "InheritedType": 10
               },
               {
@@ -431,7 +431,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen6",
+                    "strval": "P1SensorLb",
                     "InheritedType": 10
                   },
                   {
@@ -596,7 +596,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button15",
+                "strval": "P1SensorBtn",
                 "InheritedType": 10
               },
               {
@@ -852,7 +852,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen7",
+                    "strval": "P1TempLb",
                     "InheritedType": 10
                   },
                   {
@@ -1018,7 +1018,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button16",
+                "strval": "P1TempBtn",
                 "InheritedType": 10
               },
               {
@@ -1274,11 +1274,12 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen8",
+                    "strval": "P1MapLb",
                     "InheritedType": 10
                   },
                   {
                     "nid": 20,
+                    "flags": 1048576,
                     "strtype": "OBJECT/Layout",
                     "InheritedType": 1
                   },
@@ -1297,6 +1298,7 @@
                   },
                   {
                     "nid": 40,
+                    "flags": 1048576,
                     "strtype": "OBJECT/Transform",
                     "InheritedType": 1
                   },
@@ -1440,7 +1442,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button17",
+                "strval": "P1MapBtn",
                 "InheritedType": 10
               },
               {
@@ -1692,7 +1694,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "uiBtnLeft",
+                "strval": "BtnLeft",
                 "InheritedType": 10
               },
               {
@@ -1887,7 +1889,7 @@
                       {
                         "nid": 1000551,
                         "strtype": "CALL FUNCTION/Function_name",
-                        "strval": "ui_BtnUp",
+                        "strval": "BtnLeft",
                         "InheritedType": 10
                       },
                       {
@@ -1915,7 +1917,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "uiBtnRight",
+                "strval": "BtnRight",
                 "InheritedType": 10
               },
               {
@@ -1946,7 +1948,7 @@
                 "flags": 17,
                 "strtype": "OBJECT/Position",
                 "intarray": [
-                  120,
+                  121,
                   22
                 ],
                 "InheritedType": 7
@@ -2063,59 +2065,59 @@
               },
               {
                 "disabled": false,
-                "nid": 1000533,
+                "nid": 1000584,
                 "strtype": "_event/EventHandler",
                 "strval": "CLICKED",
                 "childs": [
                   {
-                    "nid": 1000534,
+                    "nid": 1000585,
                     "strtype": "_event/name",
-                    "strval": "Event11",
+                    "strval": "Event15",
                     "InheritedType": 10
                   },
                   {
-                    "nid": 1000535,
+                    "nid": 1000586,
                     "strtype": "_event/condition_C",
                     "strval": "",
                     "InheritedType": 10
                   },
                   {
-                    "nid": 1000536,
+                    "nid": 1000587,
                     "strtype": "_event/condition_P",
                     "strval": "",
                     "InheritedType": 10
                   },
                   {
-                    "nid": 1000537,
+                    "nid": 1000588,
                     "strtype": "_event/action",
                     "strval": "CALL FUNCTION",
                     "childs": [
                       {
-                        "nid": 1000538,
+                        "nid": 1000589,
                         "strtype": "CALL FUNCTION/Name",
                         "strval": "CALL FUNCTION",
                         "InheritedType": 10
                       },
                       {
-                        "nid": 1000539,
+                        "nid": 1000590,
                         "strtype": "CALL FUNCTION/Call",
                         "strval": "<{Function_name}>( event_struct )",
                         "InheritedType": 10
                       },
                       {
-                        "nid": 1000540,
+                        "nid": 1000591,
                         "strtype": "CALL FUNCTION/CallC",
                         "strval": "<{Function_name}>( e );",
                         "InheritedType": 10
                       },
                       {
-                        "nid": 1000541,
+                        "nid": 1000592,
                         "strtype": "CALL FUNCTION/Function_name",
-                        "strval": "ui_BtnDown",
+                        "strval": "BtnRight",
                         "InheritedType": 10
                       },
                       {
-                        "nid": 1000542,
+                        "nid": 1000593,
                         "strtype": "CALL FUNCTION/Dont_export_function",
                         "strval": "False",
                         "InheritedType": 2
@@ -2138,11 +2140,12 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "uiRollerPrograms",
+                "strval": "RollerPrograms",
                 "InheritedType": 10
               },
               {
                 "nid": 20,
+                "flags": 1048576,
                 "strtype": "OBJECT/Layout",
                 "InheritedType": 1
               },
@@ -2161,6 +2164,7 @@
               },
               {
                 "nid": 40,
+                "flags": 1048576,
                 "strtype": "OBJECT/Transform",
                 "InheritedType": 1
               },
@@ -2198,6 +2202,7 @@
               },
               {
                 "nid": 225,
+                "flags": 1048576,
                 "strtype": "OBJECT/Scrolling",
                 "InheritedType": 1
               },
@@ -2556,7 +2561,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "uiBtnOK",
+                "strval": "BtnOK",
                 "InheritedType": 10
               },
               {
@@ -2720,7 +2725,7 @@
                       {
                         "nid": 1000565,
                         "strtype": "CALL FUNCTION/Function_name",
-                        "strval": "ui_event_BtnOK",
+                        "strval": "BtnOk",
                         "InheritedType": 10
                       },
                       {
@@ -2869,7 +2874,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen21",
+                    "strval": "P2TempLb",
                     "InheritedType": 10
                   },
                   {
@@ -3035,7 +3040,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button4",
+                "strval": "P2TempBtn",
                 "InheritedType": 10
               },
               {
@@ -3291,7 +3296,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen22",
+                    "strval": "P2SeneorLb",
                     "InheritedType": 10
                   },
                   {
@@ -3456,7 +3461,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button5",
+                "strval": "P2SensorBtn",
                 "InheritedType": 10
               },
               {
@@ -3558,6 +3563,7 @@
               },
               {
                 "nid": 320,
+                "flags": 1048576,
                 "strtype": "OBJECT/States",
                 "InheritedType": 1
               },
@@ -3701,7 +3707,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen23",
+                    "strval": "P2MapLb",
                     "InheritedType": 10
                   },
                   {
@@ -3867,7 +3873,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button6",
+                "strval": "P2MapBtn",
                 "InheritedType": 10
               },
               {
@@ -4119,7 +4125,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Checkbox1",
+                "strval": "DistanceCheck",
                 "InheritedType": 10
               },
               {
@@ -4258,7 +4264,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Checkbox2",
+                "strval": "InertialCheck",
                 "InheritedType": 10
               },
               {
@@ -4398,7 +4404,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Checkbox3",
+                "strval": "OpticalCheck",
                 "InheritedType": 10
               },
               {
@@ -4537,7 +4543,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Checkbox4",
+                "strval": "Rotation1Check",
                 "InheritedType": 10
               },
               {
@@ -4676,7 +4682,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Checkbox5",
+                "strval": "Rotation2Check",
                 "InheritedType": 10
               },
               {
@@ -4815,7 +4821,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Checkbox6",
+                "strval": "Rotation3Check",
                 "InheritedType": 10
               },
               {
@@ -6556,7 +6562,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen3",
+                    "strval": "P2HomeLb",
                     "InheritedType": 10
                   },
                   {
@@ -6722,7 +6728,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button12",
+                "strval": "P2HomeBtn",
                 "InheritedType": 10
               },
               {
@@ -6974,7 +6980,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Label12",
+                "strval": "XText",
                 "InheritedType": 10
               },
               {
@@ -7111,7 +7117,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Label13",
+                "strval": "YText",
                 "InheritedType": 10
               },
               {
@@ -7248,7 +7254,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Label14",
+                "strval": "HeadingText",
                 "InheritedType": 10
               },
               {
@@ -7374,7 +7380,8 @@
                 "InheritedType": 11
               }
             ],
-            "saved_objtypeKey": "LABEL"
+            "saved_objtypeKey": "LABEL",
+            "tree_closed": true
           },
           {
             "guid": "GUID32943257-104722S507774214",
@@ -7385,7 +7392,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Label15",
+                "strval": "DistanceText",
                 "InheritedType": 10
               },
               {
@@ -7698,7 +7705,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen11",
+                    "strval": "P3TempLb",
                     "InheritedType": 10
                   },
                   {
@@ -7863,7 +7870,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button1",
+                "strval": "P3TempBtn",
                 "InheritedType": 10
               },
               {
@@ -9001,7 +9008,6 @@
               },
               {
                 "nid": 225,
-                "flags": 1048576,
                 "strtype": "OBJECT/Scrolling",
                 "InheritedType": 1
               },
@@ -9031,7 +9037,6 @@
               },
               {
                 "nid": 320,
-                "flags": 1048576,
                 "strtype": "OBJECT/States",
                 "InheritedType": 1
               },
@@ -9792,7 +9797,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen12",
+                    "strval": "P3SensorLb",
                     "InheritedType": 10
                   },
                   {
@@ -9957,7 +9962,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button2",
+                "strval": "P3SensorBtn",
                 "InheritedType": 10
               },
               {
@@ -10213,7 +10218,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen13",
+                    "strval": "P3MapLb",
                     "InheritedType": 10
                   },
                   {
@@ -10378,7 +10383,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button3",
+                "strval": "P3MapBtn",
                 "InheritedType": 10
               },
               {
@@ -13565,7 +13570,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen4",
+                    "strval": "P3HomeLb",
                     "InheritedType": 10
                   },
                   {
@@ -13731,7 +13736,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button13",
+                "strval": "P3HomeBtn",
                 "InheritedType": 10
               },
               {
@@ -14159,7 +14164,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen33",
+                    "strval": "P4MapLb",
                     "InheritedType": 10
                   },
                   {
@@ -14325,7 +14330,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button9",
+                "strval": "P4MapBtn",
                 "InheritedType": 10
               },
               {
@@ -14570,7 +14575,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen32",
+                    "strval": "P4SensorLb",
                     "InheritedType": 10
                   },
                   {
@@ -14763,7 +14768,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button10",
+                "strval": "P4SensorBtn",
                 "InheritedType": 10
               },
               {
@@ -15019,7 +15024,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen31",
+                    "strval": "P4TempLb",
                     "InheritedType": 10
                   },
                   {
@@ -15185,7 +15190,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button8",
+                "strval": "P4TempBtn",
                 "InheritedType": 10
               },
               {
@@ -15437,7 +15442,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Image18",
+                "strval": "ImageMap",
                 "InheritedType": 10
               },
               {
@@ -15492,7 +15497,6 @@
               },
               {
                 "nid": 90,
-                "flags": 1048576,
                 "strtype": "OBJECT/Flags",
                 "InheritedType": 1
               },
@@ -15599,7 +15603,8 @@
                 "InheritedType": 11
               }
             ],
-            "saved_objtypeKey": "IMAGE"
+            "saved_objtypeKey": "IMAGE",
+            "tree_closed": true
           },
           {
             "guid": "GUID12423406-104693S31214214",
@@ -15614,7 +15619,7 @@
                   {
                     "nid": 10,
                     "strtype": "OBJECT/Name",
-                    "strval": "LabelScreen2",
+                    "strval": "P4HomeLb",
                     "InheritedType": 10
                   },
                   {
@@ -15780,7 +15785,7 @@
               {
                 "nid": 10,
                 "strtype": "OBJECT/Name",
-                "strval": "Button11",
+                "strval": "P4HomeBtn",
                 "InheritedType": 10
               },
               {
@@ -16176,10 +16181,10 @@
     "theme_dark": false,
     "theme_color1": 5,
     "theme_color2": 0,
-    "uiExportFolderPath": "C:\\Users\\shiyi\\OneDrive\\桌面\\0719sqline\\final",
-    "projectExportFolderPath": "C:\\Users\\shiyi\\OneDrive\\桌面\\0719sqline",
+    "uiExportFolderPath": "",
+    "projectExportFolderPath": "",
     "custom_variable_prefix": "uic",
-    "backup_cnt": 15,
+    "backup_cnt": 25,
     "autosave_cnt": 0,
     "group_color_cnt": 1,
     "lvgl_version": "9.2.2",
@@ -16197,7 +16202,7 @@
     "naming": "Name",
     "naming_force_lowercase": false,
     "naming_add_subcomponent": false,
-    "nidcnt": 1000573,
+    "nidcnt": 1000594,
     "BitDepth": 32,
     "Name": "0719UIUX"
   }
